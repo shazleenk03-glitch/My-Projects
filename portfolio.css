@@ -1,0 +1,259 @@
+body {
+    overflow-x: hidden;
+    height: 170vh;
+    max-width: 100%;
+    width: 100%;
+    background-color: rgb(10, 10, 50);
+    color: white;
+
+}
+
+header {
+    border-bottom: 2px solid rgb(10, 10, 50);
+    width: 100%;
+    box-shadow: 2px 2px 2px 3px rgb(10, 10, 50);
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+
+    background-color: rgb(14, 14, 53);
+
+}
+
+nav:hover {
+    text-decoration: none;
+    color: peru;
+    cursor: pointer;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0 23px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: peru;
+    font-size: 1.04rem;
+
+}
+
+.left {
+    font-size: 1.5em;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    /* margin: 110px 0px; */
+
+
+}
+
+.leftsection {
+    font-size: 62px;
+    margin: 200px 0px;
+
+
+}
+
+.purple {
+    color: peru;
+}
+
+.first .rightsection img {
+    margin: 80px 90px;
+    width: 30vw;
+    box-shadow: 5px 4px 4px rgb(31, 31, 78) inset;
+}
+
+.secondsection {
+    
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+
+
+main hr {
+    border: 0;
+    background-color: peru;
+    height: 1.2px;
+    margin: 0px;
+
+}
+
+.secondsection {
+    height: 80vh;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+
+}
+
+.secondsection h1 {
+    font-size: 1.9rem;
+    text-align: center;
+    /* margin: 30px; */
+
+}
+
+.secondsection .info {
+    height: 50vh;
+    width: 20vw;
+    margin-top: 50px;
+    text-align: center;
+    padding: 40px;
+    border: 3px solid rgb(31, 31, 78) groove;
+    box-shadow: 5px 4px 4px rgb(31, 31, 78);
+}
+
+.secondsection h1 {
+    color: peru;
+}
+
+.info p {
+    font-size: 22px;
+}
+
+.info h3 {
+    color: peru;
+    text-decoration: underline;
+}
+
+.imageside {
+    position: relative;
+    top: -440px;
+    left: 439px;
+
+}
+
+.secondsection .social {
+
+    height: 50vh;
+    margin-top: 50px;
+    width: 20vw;
+    text-align: center;
+    padding: 40px;
+    border: 3px solid rgb(31, 31, 78) groove;
+    box-shadow: 5px 4px 4px rgb(31, 31, 78);
+}
+
+.socialside {
+    margin: 60px;
+    position: relative;
+    top: -440px;
+    left: 439px;
+    /* opacity: 0.7; */
+
+
+
+}
+
+.social h3 {
+    color: peru;
+    text-decoration: underline;
+}
+
+.social p {
+    font-size: 20px;
+}
+
+.secondsection hr {
+    margin: 30px;
+    width: 100%;
+}
+
+footer {
+    height: 40vh;
+    margin-top: 550px; 
+    width: 100%;
+    
+  
+}
+footer hr{
+    border: 0;
+    background-color: peru;
+    height: 1.2px;
+    margin: 0px;
+    
+}
+footer .footer-first{
+  display: flex;
+    justify-content: center;
+    margin: 30px;
+    
+}
+.footer-first img{
+    width: 30px;
+}
+footer .footer-second{
+  display: flex;
+    justify-content: center;
+    margin: 30px;
+    
+}
+.footer-second img{
+    width: 30px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+footer p a {
+    color: whitesmoke;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.footer-third p{
+    font-size: 20px;
+    margin-left: 30px;
+    color: peru;
+
+}
+.email{
+    display: flex;
+    justify-content: center;
+    margin:80px;
+    gap: 20px;
+}
+#email{
+    height: 30px;
+    width: 400px;
+    background-color: transparent;
+    border: 1px solid peru;
+    color: white;
+
+}
+.button{
+    width: 265px;
+    border: 1px solid peru;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
